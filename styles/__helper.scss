@@ -1,0 +1,80 @@
+.btn{
+    font-weight: bold;
+    border-radius: 9rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.6rem;
+    margin-top: 1rem;
+
+    &.top{
+        background-color: $all;
+        a{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1rem;
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+    &.white{
+        background-color:$all;
+        a{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1rem;
+            text-decoration: none;
+            color: black;
+        }
+   }
+
+   &.end{
+    background-color:lightseagreen ;
+    position: relative;
+    left: -40%;
+    top: 9vh;
+    a{
+        text-decoration: none;
+        color: $all;
+        font-size: 14px;
+    }
+}
+}
+
+@media all and (min-width:1024px) and (max-width:1280px){
+    .btn{
+        padding: 1rem 2rem;
+        &.top{
+            position: relative;
+            left: 40%;
+            a{
+                font-size: 13px;
+                font-family: 'Poppins';
+            }
+        }
+
+        &.white{
+            position: relative;
+            left: 28%;
+            top:24vh;
+            a{
+                font-size: 13px;
+                font-family: 'Poppins';
+            }
+        }
+
+        &.end{
+            padding: 1rem 2rem ;
+            background-color:lightseagreen ;
+            position: relative;
+            left: 178%;
+            a{
+                text-decoration: none;
+                color: $primary;
+                font-family: 'Poppins';
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media all and (max-width:200px) {}

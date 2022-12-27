@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  transition: 1.25s ease-in;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+#logo img {
+  align-self: center;
+  height: 4rem;
+  width: auto;
+}
+
+header {
+  font-family: "Poppins";
+  position: fixed;
+  top: 10;
+  width: 100%;
+  z-index: 1;
+  background-color: #7eea00;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  margin: 7px;
+  font-family: "Kanit";
+  font-size: 1.2rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+footer .copy {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+footer span {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/*Menu Icon*/
+.wrapper {
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background: #7eea00;
+  height: 3rem;
+}
+.wrapper .container {
+  z-index: 999;
+  height: 25px;
+  width: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.wrapper .container .menulogo {
+  height: 7px;
+  width: 40px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.menu {
+  position: fixed;
+  z-index: 999;
+  font-family: "Poppins";
+  background-color: slateblue;
+  width: 10%;
+  height: 100vh;
+  padding: 50px;
+  transform: translateX(-700px);
+  transition: 0.5s;
+}
+.menu li {
+  list-style: none;
+  border-bottom: 1px solid rgb(130, 117, 218);
+  padding: 20px 0;
+  text-align: center;
+}
+.menu li:last-child {
+  border-bottom: none;
+}
+.menu li a {
+  transition: font-weight 0.2s;
+  color: snow;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.showmenu {
+  transform: translateX(0px);
+}
+
+::-webkit-scrollbar-track {
+  height: 3px;
+}
+
+::-webkit-scrollbar {
+  background-color: #242f3f;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7eea00;
+}
+
+.loader-wrapper {
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #242f3f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s, visibility 1s;
+}
+.loader-wrapper.fade {
+  opacity: 0;
+  visibility: hidden;
+}
+.loader-wrapper .loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+  -webkit-animation: loader 2s infinite ease;
+          animation: loader 2s infinite ease;
+}
+.loader-wrapper .loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  -webkit-animation: loader-inner 1s infinite ease-in;
+          animation: loader-inner 1s infinite ease-in;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+  }
+  .menu {
+    width: 30%;
+  }
+  .menu li {
+    border-bottom: 4px solid rgb(130, 117, 218);
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+  .menu li:first-child {
+    margin-top: 4rem;
+  }
+}
+.btn {
+  font-weight: bold;
+  border-radius: 9rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.6rem;
+  margin-top: 1rem;
+}
+.btn.top {
+  background-color: snow;
+}
+.btn.top a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.btn.white {
+  background-color: snow;
+}
+.btn.white a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.btn.end {
+  background-color: lightseagreen;
+  position: relative;
+  left: -40%;
+  top: 9vh;
+}
+.btn.end a {
+  text-decoration: none;
+  color: snow;
+  font-size: 14px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .btn {
+    padding: 1rem 2rem;
+  }
+  .btn.top {
+    position: relative;
+    left: 40%;
+  }
+  .btn.top a {
+    font-size: 13px;
+    font-family: "Poppins";
+  }
+  .btn.white {
+    position: relative;
+    left: 28%;
+    top: 24vh;
+  }
+  .btn.white a {
+    font-size: 13px;
+    font-family: "Poppins";
+  }
+  .btn.end {
+    padding: 1rem 2rem;
+    background-color: lightseagreen;
+    position: relative;
+    left: 178%;
+  }
+  .btn.end a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+    font-size: 13px;
+  }
+}
+.about-head {
+  background-image: linear-gradient(rgba(6, 57, 199, 0.829), rgba(2, 20, 31, 0.781)), url(../images/heart.jpg);
+  height: 43vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.about-head .headMain {
+  position: relative;
+  top: 30%;
+}
+.about-head .headMain h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: snow;
+}
+
+.services {
+  margin-top: 6%;
+  height: 40%;
+  width: 100%;
+}
+.services marquee {
+  display: none;
+}
+.services .serv-head {
+  color: black;
+}
+.services .serv-head h3 {
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+.services .serv-head p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.services .items {
+  margin: 70px auto;
+  height: 49vh;
+  width: 60%;
+}
+.services .items .first, .services .items .second {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.services .items img {
+  border-radius: 10%;
+  margin: 1rem auto;
+  height: 45vh;
+  width: 50vh;
+}
+.services .items figcaption {
+  position: relative;
+  left: 3%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "kanit";
+  color: black;
+  letter-spacing: 2px;
+}
+
+.description {
+  position: relative;
+  top: 70vh;
+  background-color: #02514b;
+  color: snow;
+  height: 40%;
+  width: 100%;
+}
+.description h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 1vh;
+  width: 20%;
+  left: 4%;
+  -webkit-text-decoration: underline solid yellow;
+          text-decoration: underline solid yellow;
+}
+.description .texx {
+  display: flex;
+  align-items: center;
+}
+.description .texx p {
+  padding: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: justify;
+}
+.description .texx img {
+  position: relative;
+  border-radius: 50%;
+  top: -2vh;
+  left: 9%;
+  width: 18vw;
+  height: 35vh;
+}
+
+footer {
+  position: relative;
+  top: 79vh;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .about-head {
+    height: 20rem;
+  }
+  .about-head .headMain h2 {
+    font-size: 32px;
+  }
+  .services .serv-head h3 {
+    font-size: 30px;
+  }
+  .services .serv-head p {
+    font-size: 20px;
+  }
+  .services .items {
+    margin-top: 2rem;
+    width: 100vw;
+  }
+  .services .items img {
+    height: 40vh;
+    width: 50vh;
+  }
+  .services .items .first .s-i figcaption {
+    margin-left: -30px;
+  }
+  .services .items .second .h-c {
+    position: relative;
+    left: 5px;
+  }
+  .services .items .second .h-c figcaption {
+    margin-left: -30px;
+  }
+  .services .items figcaption {
+    font-size: 22px;
+  }
+  .description {
+    position: relative;
+    top: 65vh;
+  }
+  .description h2 {
+    font-size: 28px;
+    width: 30%;
+  }
+  .description .texx {
+    align-items: center;
+    justify-content: space-around;
+  }
+  .description .texx p {
+    margin: 3%;
+    font-family: "Poppins";
+    text-align: justify;
+    font-size: 14px;
+  }
+  .description .texx img {
+    height: 10rem;
+    width: 10rem;
+    left: -1rem;
+  }
+  footer {
+    position: relative;
+    top: 70vh;
+  }
+}/*# sourceMappingURL=about.css.map */

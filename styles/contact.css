@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300;1,400&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  transition: 1.25s ease-in;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+#logo img {
+  align-self: center;
+  height: 4rem;
+  width: auto;
+}
+
+header {
+  font-family: "Poppins";
+  position: fixed;
+  top: 10;
+  width: 100%;
+  z-index: 1;
+  background-color: #7eea00;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  margin: 7px;
+  font-family: "Kanit";
+  font-size: 1.2rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+footer .copy {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+footer span {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/*Menu Icon*/
+.wrapper {
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background: #7eea00;
+  height: 3rem;
+}
+.wrapper .container {
+  z-index: 999;
+  height: 25px;
+  width: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.wrapper .container .menulogo {
+  height: 7px;
+  width: 40px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.menu {
+  position: fixed;
+  z-index: 999;
+  font-family: "Poppins";
+  background-color: slateblue;
+  width: 10%;
+  height: 100vh;
+  padding: 50px;
+  transform: translateX(-700px);
+  transition: 0.5s;
+}
+.menu li {
+  list-style: none;
+  border-bottom: 1px solid rgb(130, 117, 218);
+  padding: 20px 0;
+  text-align: center;
+}
+.menu li:last-child {
+  border-bottom: none;
+}
+.menu li a {
+  transition: font-weight 0.2s;
+  color: snow;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.showmenu {
+  transform: translateX(0px);
+}
+
+::-webkit-scrollbar-track {
+  height: 3px;
+}
+
+::-webkit-scrollbar {
+  background-color: #242f3f;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7eea00;
+}
+
+.loader-wrapper {
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #242f3f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s, visibility 1s;
+}
+.loader-wrapper.fade {
+  opacity: 0;
+  visibility: hidden;
+}
+.loader-wrapper .loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+  -webkit-animation: loader 2s infinite ease;
+          animation: loader 2s infinite ease;
+}
+.loader-wrapper .loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  -webkit-animation: loader-inner 1s infinite ease-in;
+          animation: loader-inner 1s infinite ease-in;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+  }
+  .menu {
+    width: 30%;
+  }
+  .menu li {
+    border-bottom: 4px solid rgb(130, 117, 218);
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+  .menu li:first-child {
+    margin-top: 4rem;
+  }
+}
+.btn {
+  font-weight: bold;
+  border-radius: 9rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.6rem;
+  margin-top: 1rem;
+}
+.btn.top {
+  background-color: snow;
+}
+.btn.top a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.btn.white {
+  background-color: snow;
+}
+.btn.white a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.btn.end {
+  background-color: lightseagreen;
+  position: relative;
+  left: -40%;
+  top: 9vh;
+}
+.btn.end a {
+  text-decoration: none;
+  color: snow;
+  font-size: 14px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .btn {
+    padding: 1rem 2rem;
+  }
+  .btn.top {
+    position: relative;
+    left: 40%;
+  }
+  .btn.top a {
+    font-size: 13px;
+    font-family: "Poppins";
+  }
+  .btn.white {
+    position: relative;
+    left: 28%;
+    top: 24vh;
+  }
+  .btn.white a {
+    font-size: 13px;
+    font-family: "Poppins";
+  }
+  .btn.end {
+    padding: 1rem 2rem;
+    background-color: lightseagreen;
+    position: relative;
+    left: 178%;
+  }
+  .btn.end a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+    font-size: 13px;
+  }
+}
+.book {
+  transition: 1.2s;
+  color: snow;
+}
+.book .book-head {
+  margin: 3rem 0 0 1rem;
+}
+.book .book-head h3 {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+}
+.book .head-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.book .head-word p {
+  margin-left: -1rem;
+  text-align: justify;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-size: 2rem;
+  color: blue;
+}
+.book .head-word .rig-img {
+  transition: 1.22s;
+  position: relative;
+  right: 2em;
+}
+.book .head-word .rig-img img {
+  border-radius: 2rem;
+  box-shadow: 3px 1px 6px #d1d1d1, 1px 1px 10px #f0f;
+}
+
+.find {
+  margin-top: 5rem;
+  transition: 1.24s;
+  background-color: #02514b;
+  box-sizing: border-box;
+}
+.find .f-help {
+  position: relative;
+  top: 2rem;
+}
+.find .f-help h3 {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: snow;
+}
+.find .help-strat {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.find .help-strat img {
+  position: relative;
+  bottom: 1.5rem;
+  height: 19rem;
+  border-radius: 50%;
+}
+.find .help-strat p {
+  margin-top: -6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: yellow;
+}
+.find .help-strat p span {
+  text-transform: uppercase;
+  color: snow;
+}
+.find .bul {
+  position: relative;
+  left: -40%;
+  top: 7vh;
+}
+
+.therapy {
+  margin-top: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.therapy .imagge {
+  margin-left: 3%;
+}
+.therapy .imagge img {
+  border-radius: 5%;
+  height: 20rem;
+  box-shadow: 3px 1px 7px #d1d1d9, 1px 1px 10px #f0f;
+}
+.therapy .therapy-word h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+  letter-spacing: 9px;
+}
+.therapy .therapy-word p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+}
+
+.mes {
+  height: 90vh;
+  width: 100%;
+  background-color: #02514b;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  color: snow;
+}
+.mes .line {
+  height: 70vh;
+  width: 0.2%;
+  background-color: yellow;
+}
+.mes .message {
+  margin-top: 2rem;
+  width: 30rem;
+  margin-left: -1rem;
+}
+.mes .message h4 {
+  position: relative;
+  top: 1rem;
+  margin-left: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.mes .message h4 a {
+  font-weight: bold;
+  color: snow;
+  font-size: 2rem;
+}
+.mes .message h6 {
+  position: relative;
+  top: 1rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.address {
+  transition: 1.22s;
+  position: relative;
+  top: 1rem;
+}
+.address .fa-brands {
+  color: snow;
+}
+.address h3 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+}
+.address .cont-add-1 {
+  margin-top: 1%;
+}
+.address .cont-add-1 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.address .cont-add-2 {
+  margin-top: 2rem;
+}
+.address .cont-add-2 :nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.address .cont-add-2 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.address .cont-add-2 a {
+  text-decoration: none;
+}
+.address .sell {
+  margin-top: 3rem;
+}
+.address .sell p {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.address .sell p span {
+  color: #7eea00;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.address .volunteer {
+  margin-top: 2rem;
+}
+.address .volunteer h4 {
+  margin-bottom: 0.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.address .volunteer p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+footer {
+  position: relative;
+  top: 10vh;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .book .book-head {
+    width: 40vw;
+  }
+  .book .book-head h3 {
+    font-size: 24px;
+  }
+  .book .head-word p {
+    font-size: 25px;
+  }
+  .book .rig-img img {
+    height: 15rem;
+    border-radius: 2rem;
+    box-shadow: 3px 1px 6px #d1d1d1, 1px 1px 10px #f0f;
+  }
+  .find .f-help {
+    width: 40vw;
+    position: relative;
+    left: 40%;
+  }
+  .find .f-help h3 {
+    text-align: center;
+  }
+  .find .help-strat p {
+    font-size: 22px;
+    position: relative;
+    left: 4rem;
+  }
+  .find .help-strat p span {
+    text-transform: uppercase;
+  }
+  .find .help-strat .bul {
+    left: -30%;
+  }
+  .therapy {
+    flex-direction: column;
+  }
+  .therapy .imagge img {
+    height: 13rem;
+  }
+  .therapy .therapy-word {
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    font-size: 1.5rem;
+    font-family: "Poppins";
+  }
+  .therapy .therapy-word p {
+    font-size: 25px;
+  }
+  .mes {
+    height: 100vh;
+  }
+  .mes .message {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .mes .message h4 {
+    position: relative;
+    top: -3vh;
+  }
+  .mes .message h4 a {
+    text-align: center;
+  }
+  .mes .address {
+    top: -1rem;
+    text-align: center;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    justify-content: space-evenly;
+    margin-left: 30%;
+  }
+  .mes .address .cont-add-2 :nth-child(2) a {
+    margin: 0;
+  }
+  .mes .address h3 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=contact.css.map */
