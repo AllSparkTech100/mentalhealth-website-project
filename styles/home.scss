@@ -149,3 +149,95 @@ footer{
         }
     }
 }
+
+@media all and (max-width:360px) and (max-height:480px){
+    .content{
+        .write{
+            width: 100%;
+            left: 0;
+            top: 90px;
+
+            h2{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+
+    .center{
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
+
+@media all and (min-height:500px) and (max-height:650px) and (min-width:414px) and (orientation:portrait){
+    .content{
+        height:50vh;
+        .write{
+            width: 100%;
+            left: 0;
+            top: 90px;
+
+            h2{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    .center{
+        height: 45vh;
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}

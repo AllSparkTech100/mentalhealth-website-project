@@ -272,3 +272,65 @@ footer{
     }
   }
 }
+
+@media all and (max-width:360px) and (max-height:480px){
+  #logo{
+    display:none;
+  }
+
+  header{
+    display: none;
+  }
+
+  .wrapper{
+    display: block;
+    height: 2.5rem;
+    .container{
+      .menulogo{
+        height: 4px;
+        width: 30px;
+      }
+    }
+  }
+
+  .menu{
+    width: 55%;
+    li{
+      a{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media all and (min-height:500px) and (max-height:650px) and (min-width:414px) and (orientation:portrait){
+
+  #logo{
+    display:none;
+  }
+
+  header{
+    display: none;
+  }
+
+  .wrapper{
+    display: block;
+    height: 2.5rem;
+    .container{
+      .menulogo{
+        height: 4px;
+        width: 30px;
+      }
+    }
+  }
+
+  .menu{
+    width: 75%;
+    li{
+      line-height: 3;
+      a{
+        font-size: 16px;
+      }
+    }
+  }
+}

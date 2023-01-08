@@ -273,6 +273,53 @@ footer span {
     margin-top: 4rem;
   }
 }
+@media all and (max-width: 360px) and (max-height: 480px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 55%;
+  }
+  .menu li a {
+    font-size: 14px;
+  }
+}
+@media all and (min-height: 500px) and (max-height: 650px) and (min-width: 414px) and (orientation: portrait) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 75%;
+  }
+  .menu li {
+    line-height: 3;
+  }
+  .menu li a {
+    font-size: 16px;
+  }
+}
 .btn {
   font-weight: bold;
   border-radius: 9rem;
@@ -345,6 +392,52 @@ footer span {
     color: black;
     font-family: "Poppins";
     font-size: 13px;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 480px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 138px;
+  }
+  .btn.top a {
+    font-size: 14px;
+  }
+  .btn.white {
+    position: relative;
+    left: 135px;
+  }
+  .btn.white a {
+    font-size: 14px;
+  }
+  .btn .end a {
+    font-size: 40px;
+  }
+}
+@media all and (min-height: 500px) and (max-height: 650px) and (min-width: 414px) and (orientation: portrait) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 150px;
+  }
+  .btn.top a {
+    font-size: 17px;
+  }
+  .btn.white {
+    position: relative;
+    left: 150px;
+  }
+  .btn.white a {
+    font-size: 17px;
+  }
+  .btn .end a {
+    font-weight: normal;
   }
 }
 .book {
@@ -484,13 +577,6 @@ footer span {
   font-weight: bold;
   color: snow;
   font-size: 2rem;
-}
-.mes .message h6 {
-  position: relative;
-  top: 1rem;
-  margin-left: 2rem;
-  font-size: 1rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .address {
@@ -639,5 +725,224 @@ footer {
   }
   .mes .address h3 {
     text-align: center;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 480px) {
+  .book .book-head {
+    position: relative;
+    top: 40px;
+    margin: 0;
+  }
+  .book .book-head h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+  }
+  .book .head-word {
+    margin: 64px 0 0 -10px;
+    width: 100%;
+  }
+  .book .head-word p {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+  }
+  .book .head-word .rig-img {
+    display: none;
+  }
+  .find {
+    height: 52vh;
+  }
+  .find .f-help {
+    top: 90px;
+  }
+  .find .f-help h3 {
+    font-size: 28px;
+  }
+  .find .help-strat p {
+    display: none;
+  }
+  .find .help-strat img {
+    display: none;
+  }
+  .find .bul {
+    left: -2%;
+    top: 20vh;
+  }
+  .therapy {
+    margin-top: 30%;
+  }
+  .therapy .imagge {
+    display: none;
+  }
+  .therapy .therapy-word {
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    font-size: 20px;
+  }
+  .therapy .therapy-word p {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 12px;
+  }
+  .mes {
+    height: 100vh;
+  }
+  .mes .line {
+    display: none;
+  }
+  .mes .message {
+    display: none;
+  }
+  .mes .message h4 a {
+    font-size: 10px;
+  }
+  .mes .address {
+    text-align: center;
+  }
+  .mes .address h3 {
+    font-size: 20px;
+  }
+  .mes .address .cont-add-1 p {
+    font-size: 12px;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    margin-left: 90px;
+  }
+  .mes .address .cont-add-2 p {
+    font-size: 12px;
+  }
+  .mes .address .sell {
+    margin-top: 20px;
+  }
+  .mes .address .sell p {
+    font-size: 14px;
+  }
+  .mes .address .sell p span {
+    font-size: 13px;
+  }
+  .mes .address .volunteer h4 {
+    font-size: 14px;
+  }
+  .mes .address .volunteer p {
+    font-size: 12px;
+  }
+}
+@media all and (min-height: 500px) and (max-height: 650px) and (min-width: 414px) and (orientation: portrait) {
+  .book .book-head {
+    position: relative;
+    top: 40px;
+    margin: 0;
+  }
+  .book .book-head h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+  }
+  .book .head-word {
+    margin: 64px 0 0 -4px;
+    width: 100%;
+  }
+  .book .head-word p {
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+  }
+  .book .head-word .rig-img {
+    display: none;
+  }
+  .find {
+    height: 52vh;
+  }
+  .find .f-help {
+    top: 90px;
+  }
+  .find .f-help h3 {
+    font-size: 38px;
+  }
+  .find .help-strat p {
+    display: none;
+  }
+  .find .help-strat img {
+    display: none;
+  }
+  .find .bul {
+    left: -2%;
+    top: 15vh;
+  }
+  .therapy {
+    margin-top: 30%;
+  }
+  .therapy .imagge {
+    display: none;
+  }
+  .therapy .therapy-word {
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    text-decoration: underline;
+    -webkit-text-decoration-style: wavy;
+            text-decoration-style: wavy;
+    font-size: 24px;
+  }
+  .therapy .therapy-word p {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 14px;
+  }
+  .mes {
+    height: 120vh;
+    flex-direction: column-reverse;
+  }
+  .mes .line {
+    display: none;
+  }
+  .mes .message {
+    width: auto;
+    display: block;
+  }
+  .mes .message h4 {
+    left: -10%;
+    margin: 0;
+  }
+  .mes .message h4 a {
+    font-size: 20px;
+  }
+  .mes .address {
+    text-align: center;
+  }
+  .mes .address h3 {
+    font-size: 24px;
+  }
+  .mes .address .cont-add-1 p {
+    font-size: 18px;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    margin-left: 90px;
+  }
+  .mes .address .cont-add-2 p {
+    font-size: 18px;
+  }
+  .mes .address .sell {
+    margin-top: 20px;
+  }
+  .mes .address .sell p {
+    font-size: 15px;
+  }
+  .mes .address .sell p span {
+    font-size: 13px;
+  }
+  .mes .address .volunteer h4 {
+    font-size: 18px;
+  }
+  .mes .address .volunteer p {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=contact.css.map */
