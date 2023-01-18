@@ -233,6 +233,7 @@
       }
     }
   }
+  
 
   footer{
     position: relative;
@@ -445,7 +446,7 @@
 
       .cont-add-2{
         :nth-child(2){
-          margin-left: 90px;
+          margin-left: 10px;
         }
         p{
           font-size: 12px;
@@ -584,7 +585,7 @@
 
       .cont-add-2{
         :nth-child(2){
-          margin-left: 90px;
+          margin-left: 10px;
         }
         p{
           font-size: 18px;
@@ -609,6 +610,278 @@
 
         p{
           font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:239px) and (orientation:portrait) {
+  .book{
+    .book-head{
+      position: relative;
+      top: 40px;
+      margin: 0;
+
+      h3{
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+    .head-word{
+        margin: 64px 0 0 0;
+        width: 100%;
+      p{
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+      }
+      .rig-img{
+        display: none;
+      }
+    }
+  }
+
+  .find{
+    height: 52vh;
+      .f-help{
+        top: 90px;
+        h3{
+          font-size: 22px;
+        }
+      }
+
+      .help-strat{
+        p{
+          display: none;
+        }
+        img{
+          display: none;
+        }
+      }
+      .bul{
+        background: #000;
+        border: solid $all;
+        left: -2%;
+        top: 20vh;
+      }
+  }
+
+  .therapy{
+    margin-top: 30%;
+    .imagge{
+      display: none;
+    }
+
+    .therapy-word{
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      h3{
+        text-decoration: underline 3px solid;
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+        margin: 0;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .mes{
+    height: 100vh;
+
+
+    .line{
+      display: none;
+    }
+    .message{
+      display: none;
+      h4{
+        a{
+          font-size: 10px;
+        }
+      }
+    }
+
+    .address{
+      width: 95%;
+      text-align: center;
+      h3{
+        font-size: 20px;
+      }
+      .cont-add-1{
+        p{
+          font-size: 12px;
+        }
+      }
+
+      .cont-add-2{
+        :nth-child(2){
+          margin-left: 10px;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+
+      .sell{
+        margin-top: 20px;
+        p{
+          font-size: 14px;
+
+          span{
+            font-size: 10px;
+          }
+        }
+      }
+
+      .volunteer{
+        h4{
+          font-size: 14px;
+        }
+
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:736px) and (min-height:240px) and (max-height:420px){
+
+  .book{
+    .book-head{
+      position: relative;
+      top: 40px;
+      margin: 0;
+
+      h3{
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .head-word{
+        margin: 64px 0 0 -10px;
+        width: 100%;
+      p{
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+      }
+      .rig-img{
+        img{
+          height: 150px;
+        }
+      }
+    }
+  }
+
+  .find{
+    height: 52vh;
+      .f-help{
+        h3{
+          font-size: 28px;
+        }
+      }
+
+      .help-strat{
+        p{
+          display: none;
+        }
+        img{
+          display: none;
+        }
+      }
+      .bul{
+        left: 2%;
+        top: 20vh;
+      }
+  }
+
+  .therapy{
+    margin-top: 10%;
+    .imagge{
+      display: none;
+    }
+
+    .therapy-word{
+      height: 30vh;
+      width: 100%;
+      text-align: center;
+      h3{
+        font-size: 32px;
+      }
+      p{
+        font-size: 16px;
+        margin: 0;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .mes{
+    height: 100vh;
+
+      .line{
+        display: none;
+      }
+    .message{
+      display: none;
+      h4{
+        a{
+          font-size: 10px;
+        }
+      }
+    }
+
+    .address{
+      text-align: center;
+      h3{
+        font-size: 20px;
+      }
+      .cont-add-1{
+        p{
+          font-size: 12px;
+        }
+      }
+
+
+      .cont-add-2{
+        :nth-child(2){
+          margin-left: 10px;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+
+      .sell{
+        margin-top: 20px;
+        p{
+          font-size: 14px;
+
+          span{
+            font-size: 13px;
+          }
+        }
+      }
+
+      .volunteer{
+        h4{
+          font-size: 14px;
+        }
+
+        p{
+          font-size: 12px;
         }
       }
     }

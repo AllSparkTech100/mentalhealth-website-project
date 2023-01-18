@@ -4,6 +4,7 @@
 
 .content{
     background-image: linear-gradient(rgba(0, 2, 3, 0.705),rgba(199, 7, 189, 0.596)),url(../images/test.jpg);
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -42,6 +43,7 @@
     .mission-head{
         position: relative;
         top: 2rem;
+        text-decoration: underline $yel 3px;
 
         h3{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -197,7 +199,7 @@ footer{
 
 @media all and (min-height:500px) and (max-height:650px) and (min-width:414px) and (orientation:portrait){
     .content{
-        height:50vh;
+        height:59vh;
         .write{
             width: 100%;
             left: 0;
@@ -216,10 +218,110 @@ footer{
     }
 
     .center{
-        height: 45vh;
+        height: 57vh;
         .mission-head{
             h3{
                 font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
+
+
+@media all and (max-width:239px) and (orientation:portrait) {
+    .content{
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 75px;
+            text-align: center;
+            h2{
+                text-transform: uppercase;
+                font-family: 'Poppins';
+                font-size: 18px;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: cursive;
+            }
+        }
+    }
+
+    .center{
+        height: 70vh;
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            width: 100vw;
+            p{
+                font-size: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
+
+@media all and (max-width:736px) and (min-height:240px) and (max-height:420px)
+    {
+    .content{
+        height: 80vh;
+        .write{
+            width: 100%;
+            left: 0;
+            top: 70px;
+
+            h2{
+                font-size: 40px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .mission-head{
+            h3{
+                font-size: 30px;
                 margin: 0;
                 text-align: center;
                 line-height: 2ch;
