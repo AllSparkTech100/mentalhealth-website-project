@@ -374,6 +374,149 @@ footer span {
     font-size: 18px;
   }
 }
+@media all and (max-width: 240px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2rem;
+  }
+  .wrapper .container {
+    margin: 4px;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li:nth-child(1) {
+    margin-top: 20px;
+  }
+  .menu li a {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 280px) and (max-height: 653px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2rem;
+  }
+  .wrapper .container {
+    margin: 4px;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li:nth-child(1) {
+    margin-top: 20px;
+  }
+  .menu li a {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 568px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2rem;
+  }
+  .wrapper .container {
+    margin: 4px;
+  }
+  .wrapper .container .menulogo {
+    height: 5px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: 3px solid #e6e6e6;
+  }
+  .menu li:nth-child(1) {
+    margin-top: 60px;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 480px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li a {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 640px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 18px;
+  }
+}
 .btn {
   font-weight: bold;
   border-radius: 9rem;
@@ -540,6 +683,118 @@ footer span {
     font-size: 40px;
   }
 }
+@media all and (max-width: 240px) {
+  .btn {
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 8px 5px;
+  }
+  .btn.top {
+    position: relative;
+    left: 75px;
+  }
+  .btn.top a {
+    font-size: 14px;
+  }
+  .btn.white {
+    position: relative;
+    left: 74px;
+  }
+  .btn.white a {
+    font-size: 14px;
+  }
+  .btn .end a {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 280px) and (max-height: 653px) {
+  .btn {
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 10px 8px;
+  }
+  .btn.top {
+    position: relative;
+    left: 90px;
+  }
+  .btn.top a {
+    font-size: 16px;
+  }
+  .btn.white {
+    position: relative;
+    left: 97px;
+  }
+  .btn.white a {
+    font-size: 14px;
+  }
+  .btn .end a {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 568px) {
+  .btn {
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 10px 8px;
+  }
+  .btn.top {
+    position: relative;
+    left: 100px;
+  }
+  .btn.top a {
+    font-size: 18px;
+  }
+  .btn.white {
+    position: relative;
+    left: 100px;
+  }
+  .btn.white a {
+    font-size: 18px;
+  }
+  .btn .end a {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 480px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 113px;
+  }
+  .btn.top a {
+    font-size: 16px;
+  }
+  .btn.white {
+    position: relative;
+    left: 115px;
+  }
+  .btn.white a {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 640px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 120px;
+  }
+  .btn.top a {
+    font-size: 18px;
+  }
+  .btn.white {
+    position: relative;
+    left: 118px;
+  }
+  .btn.white a {
+    font-size: 18px;
+  }
+}
 .about-head {
   background-image: linear-gradient(rgba(6, 57, 199, 0.829), rgba(2, 20, 31, 0.781)), url(../images/heart.jpg);
   height: 43vh;
@@ -579,6 +834,9 @@ footer span {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
   text-align: center;
+}
+.services .main-services {
+  display: none;
 }
 .services .grid-container {
   margin: 10ch auto;
@@ -870,5 +1128,257 @@ footer {
     text-align: justify;
     margin-top: 20px;
     font-size: 12px;
+  }
+}
+@media all and (max-width: 240px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain {
+    padding-top: 8px;
+  }
+  .about-head .headMain h2 {
+    font-size: 13px;
+  }
+  .services .serv-head h3 {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 11.48px;
+  }
+  .services .main-services {
+    display: block;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 80px;
+    height: 80vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 280px) and (max-height: 653px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain {
+    padding-top: 8px;
+  }
+  .about-head .headMain h2 {
+    font-size: 14px;
+    font-family: "Kanit";
+  }
+  .services .serv-head {
+    position: relative;
+    top: 5vh;
+  }
+  .services .serv-head h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 14px;
+  }
+  .services .main-services {
+    display: block;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 20vh;
+    height: 70vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " ?";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 568px) {
+  .about-head {
+    height: 35vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Kanit";
+  }
+  .services .serv-head {
+    position: relative;
+    top: 5vh;
+  }
+  .services .serv-head h3 {
+    font-size: 22px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 16px;
+  }
+  .services .main-services {
+    display: block;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 30vh;
+    height: 80vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " ?";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 480px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain {
+    padding-top: 20px;
+  }
+  .about-head .headMain h2 {
+    font-size: 13px;
+  }
+  .services .serv-head h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 12px;
+  }
+  .services .main-services {
+    display: block;
+  }
+  .services .main-services a {
+    font-size: 18px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 28vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  footer {
+    top: 37vh;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 640px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain {
+    padding-top: 20px;
+  }
+  .about-head .headMain h2 {
+    font-size: 17px;
+  }
+  .services .serv-head h3 {
+    font-size: 26px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 15px;
+  }
+  .services .main-services {
+    display: block;
+    margin-top: 10vh;
+  }
+  .services .main-services a {
+    font-size: 20px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 18vh;
+    height: 50vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  footer {
+    top: 30vh;
   }
 }/*# sourceMappingURL=about.css.map */

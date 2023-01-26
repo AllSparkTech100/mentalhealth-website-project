@@ -343,3 +343,247 @@ footer{
         }
     }
 }
+
+@media all and (max-width:240px) {
+    .content{
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 55px;
+            text-align: center;
+            h2{
+                text-transform: uppercase;
+                font-family: 'Poppins';
+                font-size: 18px;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: cursive;
+            }
+        }
+    }
+
+    .center{
+        height: 70vh;
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            width: 100vw;
+            p{
+                font-size: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }    
+}
+
+@media all and (max-width:280px) and (max-height:653px){
+    .content{
+        height: 56vh;
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 90px;
+            text-align: center;
+            h2{
+                text-transform: uppercase;
+                font-family: 'Poppins';
+                font-size: 22px;
+            }
+
+            p{
+                font-size: 14px;
+                font-family: cursive;
+            }
+        }
+    }
+
+    .center{
+        height: 60vh;
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            width: 100vw;
+            p{
+                font-size: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
+
+@media all and (max-width:320px) and (max-height:568px){
+
+    .content{
+        height: 56vh;
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 50px;
+            text-align: center;
+            h2{
+                text-transform: uppercase;
+                font-family: 'Poppins';
+                font-size: 22px;
+            }
+
+            p{
+                font-size: 15px;
+                font-family: cursive;
+            }
+        }
+    }
+
+    .center{
+        height: 60vh;
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 3ch;
+            }
+        }
+
+        .miss-word{
+            width: 100vw;
+            p{
+                font-size: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }   
+
+}
+
+@media all and (max-width:320px) and (max-height:480px){
+
+    .content{
+        height: 70vh;
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 80px;
+
+            h2{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+    }
+
+    .center{
+        .mission-head{
+            h3{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            p{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
+
+@media all and (max-width:360px) and (max-height:640px){
+    .content{
+        height: 60vh;
+        .write{
+            width: 100vw;
+            left: 0;
+            top: 80px;
+
+            h2{
+                font-size: 27px;
+                text-align: center;
+            }
+
+            p{
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+
+    .center{
+        .mission-head{
+            h3{
+                font-size: 28px;
+                margin: 0;
+                text-align: center;
+                line-height: 2ch;
+            }
+        }
+
+        .miss-word{
+            p{
+                font-size: 22px;
+                margin-top: 60px;
+            }
+            .right-img{
+                display: none;
+            }
+        }
+
+        .but{
+            margin: 0;
+        }
+    }
+}
