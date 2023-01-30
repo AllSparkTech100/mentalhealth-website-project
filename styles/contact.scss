@@ -1072,6 +1072,9 @@
         border: none;
         left: -1%;
         top: 15vh;
+        a{
+          font-size: 18px;
+        }
       }
   }
 
@@ -1427,7 +1430,6 @@
 }
 
 @media all and (max-width:360px) and (max-height:640px){
-
   .book{
     .book-head{
       position: relative;
@@ -1562,4 +1564,385 @@
       }
     }
   }
+}
+
+@media all and (max-width:360px) and (max-height:740px){
+  
+  .book{
+    .book-head{
+      position: relative;
+      top: 60px;
+      margin: 0;
+
+      h3{
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 19px;
+        text-align: center;
+      }
+    }
+
+    .head-word{
+        margin: 90px 0 0 0;
+        width: 100%;
+      p{
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+      }
+      .rig-img{
+        display: none;
+      }
+    }
+  }
+
+  .find{
+    height: 30vh;
+      .f-help{
+        top: 40px;
+        h3{
+          font-family: 'Kanit';
+          font-size: 28px;
+        }
+      }
+
+      .help-strat{
+        p{
+          display: none;
+        }
+        img{
+          display: none;
+        }
+      }
+      .bul{
+        left: -2%;
+        top: 10vh;
+        a{
+          font-size: 20px;
+        }
+      }
+  }
+
+  .therapy{
+    margin-top: 25%;
+    .imagge{
+      display: none;
+    }
+
+    .therapy-word{
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      h3{
+        font-size: 28px;
+      }
+      p{
+        font-size: 15px;
+        margin: 9px 0 9px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .mes{
+    height: 90vh;
+    .line{
+      display: none;
+    }
+    .message{
+      display: none;
+    }
+
+    .address{
+      margin-top: -16vh;
+      text-align: center;
+      h3{
+        text-decoration: underline;
+        font-size: 30px;
+      }
+      .cont-add-1{
+        p{
+          font-size: 16px;
+        }
+      }
+
+      .cont-add-2{
+        :nth-child(2){
+          margin-left: 10px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+
+      .sell{
+        margin-top: 20px;
+        p{
+          font-size: 20px;
+
+          span{
+            font-size: 18px;
+          }
+        }
+      }
+
+      .volunteer{
+        h4{
+          font-size: 20px;
+        }
+
+        p{
+          font-size: 14.54px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:320px) and (max-height:658px){
+  .book{
+    .book-head{
+      position: relative;
+      top: 40px;
+      margin: 0;
+    }
+
+    .head-word{
+        margin: 77px 0 0 0;
+      p{
+        text-align: center;
+        margin: 0;
+        font-size: 17px;
+      }
+    }
+  }
+
+  .find{
+    height: 30vh;
+      .f-help{
+        top: 50px;
+        h3{
+          font-size: 24px;
+          font-family: 'Poppins';
+        }
+      }
+
+      .bul{
+        padding: 10px 10px;
+        border: none;
+        left: -1%;
+        top: 10vh;
+
+        a{
+          font-size: 18px;
+          font-family: 'Kanit';
+        }
+      }
+  }
+
+  .therapy{
+    margin-top: 26%;
+  
+    .therapy-word{
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      h3{
+        font-size: 28px;
+      }
+      p{
+        margin: 0 10px 0 10px;
+        font-size: 15px;
+        margin-top: 22px;
+      }
+    }
+  }
+
+  .mes{
+    height: 95vh;
+    margin-top: 9vh;
+
+    .address{
+      top: 9vh;
+      text-align: center;
+      h3{
+        font-size: 22px;
+        text-decoration: underline $yel;
+      }
+      .cont-add-1{
+        position: relative;
+        top: 4vh;
+        p{
+          font-size: 15px;
+        }
+      }
+
+      .cont-add-2{
+        :nth-child(2){
+          margin-left: 10px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+
+      .sell{
+        margin-top: 20px;
+        p{
+          font-size: 17px;
+
+          span{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:375px) and (max-height:667px){
+  .book{
+    .book-head{
+      position: relative;
+      top: 50px;
+      margin: 0;
+
+      h3{
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+
+    .head-word{
+        margin: 84px 0 0 0;
+        width: 100%;
+      p{
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+      }
+      .rig-img{
+        display: none;
+      }
+    }
+  }
+
+  .find{
+    height: 35vh;
+      .f-help{
+        top: 40px;
+        h3{
+          font-size: 29px;
+        }
+      }
+
+      .help-strat{
+        p{
+          display: none;
+        }
+        img{
+          display: none;
+        }
+      }
+      .bul{
+        left: -2%;
+        top: 13vh;
+        background-color: transparent;
+        border: $third 3px solid;
+
+        a{
+          text-transform: uppercase;
+          font-size: 18px;
+          font-family: 'Poppins';
+          color: $yel;
+        }
+      }
+  }
+
+  .therapy{
+    margin-top: 25%;
+    .imagge{
+      display: none;
+    }
+
+    .therapy-word{
+      height: 50vh;
+      width: 100%;
+      text-align: center;
+      h3{
+        font-size: 26px;
+        font-family: 'Kanit';
+        text-decoration: underline;
+      }
+      p{
+        font-size: 16px;
+        margin: 9px 0 9px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .mes{
+    height: 90vh;
+    margin-top: -2vh;
+    .line{
+      display: none;
+    }
+    .message{
+      display: none;
+    }
+
+    .address{
+      margin-top: -10vh;
+      text-align: center;
+      h3{
+        text-decoration: underline;
+        font-size: 26px;
+      }
+      .cont-add-1{
+        top: 2vh;
+        position: relative;
+        p{
+          font-size: 16px;
+        }
+      }
+
+      .cont-add-2{
+        :nth-child(2){
+          margin-left: 10px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+
+      .sell{
+        margin-top: 20px;
+        p{
+          font-size: 18px;
+
+          span{
+            font-family: 'Poppins';
+            font-size: 16px;
+          }
+        }
+      }
+
+      .volunteer{
+        h4{
+          font-size: 18px;
+        }
+
+        p{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width:375px) and (max-height:812px){
+  
 }

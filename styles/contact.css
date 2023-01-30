@@ -517,6 +517,91 @@ footer span {
     font-size: 18px;
   }
 }
+@media all and (max-width: 360px) and (max-height: 740px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 658px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2rem;
+  }
+  .wrapper .container {
+    margin: 4px;
+  }
+  .wrapper .container .menulogo {
+    height: 5px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: 3px solid #e6e6e6;
+  }
+  .menu li:nth-child(1) {
+    margin-top: 40px;
+  }
+  .menu li a {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 375px) and (max-height: 667px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: solid 2px #e6e6e6;
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+}
 .btn {
   font-weight: bold;
   border-radius: 9rem;
@@ -709,23 +794,27 @@ footer span {
 }
 @media all and (max-width: 280px) and (max-height: 653px) {
   .btn {
-    border: black solid 3px;
+    border: yellow solid 3px;
     border-radius: 10px;
     padding: 10px 8px;
   }
   .btn.top {
     position: relative;
     left: 90px;
+    background-color: transparent;
   }
   .btn.top a {
-    font-size: 16px;
+    color: snow;
+    font-size: 18px;
   }
   .btn.white {
     position: relative;
-    left: 97px;
+    left: 90px;
+    background-color: transparent;
   }
   .btn.white a {
-    font-size: 14px;
+    color: snow;
+    font-size: 18px;
   }
   .btn .end a {
     font-size: 40px;
@@ -793,6 +882,68 @@ footer span {
   }
   .btn.white a {
     font-size: 18px;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 740px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 120px;
+  }
+  .btn.top a {
+    font-size: 20px;
+  }
+  .btn.white {
+    position: relative;
+    left: 118px;
+  }
+  .btn.white a {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 658px) {
+  .btn {
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 10px 8px;
+  }
+  .btn.top {
+    position: relative;
+    left: 100px;
+  }
+  .btn.top a {
+    font-size: 18px;
+  }
+  .btn.white {
+    position: relative;
+    left: 100px;
+  }
+  .btn.white a {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 375px) and (max-height: 667px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 130px;
+  }
+  .btn.top a {
+    font-size: 20px;
+  }
+  .btn.white {
+    position: relative;
+    top: 3vh;
+    left: 130px;
+  }
+  .btn.white a {
+    font-size: 20px;
   }
 }
 .book {
@@ -1661,6 +1812,9 @@ footer {
     left: -1%;
     top: 15vh;
   }
+  .find .bul a {
+    font-size: 18px;
+  }
   .therapy {
     margin-top: 26%;
   }
@@ -2050,5 +2204,319 @@ footer {
   }
   .mes .address .volunteer p {
     font-size: 14px;
+  }
+}
+@media all and (max-width: 360px) and (max-height: 740px) {
+  .book .book-head {
+    position: relative;
+    top: 60px;
+    margin: 0;
+  }
+  .book .book-head h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 19px;
+    text-align: center;
+  }
+  .book .head-word {
+    margin: 90px 0 0 0;
+    width: 100%;
+  }
+  .book .head-word p {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+  }
+  .book .head-word .rig-img {
+    display: none;
+  }
+  .find {
+    height: 30vh;
+  }
+  .find .f-help {
+    top: 40px;
+  }
+  .find .f-help h3 {
+    font-family: "Kanit";
+    font-size: 28px;
+  }
+  .find .help-strat p {
+    display: none;
+  }
+  .find .help-strat img {
+    display: none;
+  }
+  .find .bul {
+    left: -2%;
+    top: 10vh;
+  }
+  .find .bul a {
+    font-size: 20px;
+  }
+  .therapy {
+    margin-top: 25%;
+  }
+  .therapy .imagge {
+    display: none;
+  }
+  .therapy .therapy-word {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    font-size: 28px;
+  }
+  .therapy .therapy-word p {
+    font-size: 15px;
+    margin: 9px 0 9px;
+    margin-top: 12px;
+  }
+  .mes {
+    height: 90vh;
+  }
+  .mes .line {
+    display: none;
+  }
+  .mes .message {
+    display: none;
+  }
+  .mes .address {
+    margin-top: -16vh;
+    text-align: center;
+  }
+  .mes .address h3 {
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .mes .address .cont-add-1 p {
+    font-size: 16px;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    margin-left: 10px;
+  }
+  .mes .address .cont-add-2 p {
+    font-size: 16px;
+  }
+  .mes .address .sell {
+    margin-top: 20px;
+  }
+  .mes .address .sell p {
+    font-size: 20px;
+  }
+  .mes .address .sell p span {
+    font-size: 18px;
+  }
+  .mes .address .volunteer h4 {
+    font-size: 20px;
+  }
+  .mes .address .volunteer p {
+    font-size: 14.54px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 658px) {
+  .book .book-head {
+    position: relative;
+    top: 40px;
+    margin: 0;
+  }
+  .book .head-word {
+    margin: 77px 0 0 0;
+  }
+  .book .head-word p {
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+  }
+  .find {
+    height: 30vh;
+  }
+  .find .f-help {
+    top: 50px;
+  }
+  .find .f-help h3 {
+    font-size: 24px;
+    font-family: "Poppins";
+  }
+  .find .bul {
+    padding: 10px 10px;
+    border: none;
+    left: -1%;
+    top: 10vh;
+  }
+  .find .bul a {
+    font-size: 18px;
+    font-family: "Kanit";
+  }
+  .therapy {
+    margin-top: 26%;
+  }
+  .therapy .therapy-word {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    font-size: 28px;
+  }
+  .therapy .therapy-word p {
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+    margin-top: 22px;
+  }
+  .mes {
+    height: 95vh;
+    margin-top: 9vh;
+  }
+  .mes .address {
+    top: 9vh;
+    text-align: center;
+  }
+  .mes .address h3 {
+    font-size: 22px;
+    -webkit-text-decoration: underline yellow;
+            text-decoration: underline yellow;
+  }
+  .mes .address .cont-add-1 {
+    position: relative;
+    top: 4vh;
+  }
+  .mes .address .cont-add-1 p {
+    font-size: 15px;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    margin-left: 10px;
+  }
+  .mes .address .cont-add-2 p {
+    font-size: 16px;
+  }
+  .mes .address .sell {
+    margin-top: 20px;
+  }
+  .mes .address .sell p {
+    font-size: 17px;
+  }
+  .mes .address .sell p span {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 375px) and (max-height: 667px) {
+  .book .book-head {
+    position: relative;
+    top: 50px;
+    margin: 0;
+  }
+  .book .book-head h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+  }
+  .book .head-word {
+    margin: 84px 0 0 0;
+    width: 100%;
+  }
+  .book .head-word p {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+  }
+  .book .head-word .rig-img {
+    display: none;
+  }
+  .find {
+    height: 35vh;
+  }
+  .find .f-help {
+    top: 40px;
+  }
+  .find .f-help h3 {
+    font-size: 29px;
+  }
+  .find .help-strat p {
+    display: none;
+  }
+  .find .help-strat img {
+    display: none;
+  }
+  .find .bul {
+    left: -2%;
+    top: 13vh;
+    background-color: transparent;
+    border: #7eea00 3px solid;
+  }
+  .find .bul a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: yellow;
+  }
+  .therapy {
+    margin-top: 25%;
+  }
+  .therapy .imagge {
+    display: none;
+  }
+  .therapy .therapy-word {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+  }
+  .therapy .therapy-word h3 {
+    font-size: 26px;
+    font-family: "Kanit";
+    text-decoration: underline;
+  }
+  .therapy .therapy-word p {
+    font-size: 16px;
+    margin: 9px 0 9px;
+    margin-top: 12px;
+  }
+  .mes {
+    height: 90vh;
+    margin-top: -2vh;
+  }
+  .mes .line {
+    display: none;
+  }
+  .mes .message {
+    display: none;
+  }
+  .mes .address {
+    margin-top: -10vh;
+    text-align: center;
+  }
+  .mes .address h3 {
+    text-decoration: underline;
+    font-size: 26px;
+  }
+  .mes .address .cont-add-1 {
+    top: 2vh;
+    position: relative;
+  }
+  .mes .address .cont-add-1 p {
+    font-size: 16px;
+  }
+  .mes .address .cont-add-2 :nth-child(2) {
+    margin-left: 10px;
+  }
+  .mes .address .cont-add-2 p {
+    font-size: 16px;
+  }
+  .mes .address .sell {
+    margin-top: 20px;
+  }
+  .mes .address .sell p {
+    font-size: 18px;
+  }
+  .mes .address .sell p span {
+    font-family: "Poppins";
+    font-size: 16px;
+  }
+  .mes .address .volunteer h4 {
+    font-size: 18px;
+  }
+  .mes .address .volunteer p {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=contact.css.map */
