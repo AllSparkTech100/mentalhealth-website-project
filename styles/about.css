@@ -602,6 +602,32 @@ footer span {
     font-size: 20px;
   }
 }
+@media all and (max-width: 375px) and (max-height: 812px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: solid 2px #e6e6e6;
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+}
 .btn {
   font-weight: bold;
   border-radius: 9rem;
@@ -944,6 +970,27 @@ footer span {
   }
   .btn.white a {
     font-size: 20px;
+  }
+}
+@media all and (max-width: 375px) and (max-height: 812px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 130px;
+  }
+  .btn.top a {
+    font-size: 22px;
+  }
+  .btn.white {
+    position: relative;
+    top: 3vh;
+    left: 130px;
+  }
+  .btn.white a {
+    font-size: 22px;
   }
 }
 .about-head {
@@ -1678,6 +1725,58 @@ footer {
     text-align: justify;
     margin-top: 50px;
     font-size: 14px;
+  }
+  footer {
+    top: 30vh;
+  }
+}
+@media all and (max-width: 375px) and (max-height: 812px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 22px;
+  }
+  .services .serv-head h3 {
+    font-size: 28px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 17px;
+  }
+  .services .main-services {
+    display: block;
+    margin-top: 8vh;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 15vh;
+    height: 66vh;
+  }
+  .description h2 {
+    width: auto;
+    top: 3vh;
+    left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " !!!";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 16px;
   }
   footer {
     top: 30vh;
