@@ -628,6 +628,83 @@ footer span {
     font-size: 20px;
   }
 }
+@media all and (max-width: 384px) and (max-height: 640px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: solid 2px #e6e6e6;
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 533px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    padding: 26px 0;
+  }
+  .menu li a {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 411px) and (max-height: 731px) {
+  #logo {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .wrapper {
+    display: block;
+    height: 2.5rem;
+  }
+  .wrapper .container .menulogo {
+    height: 4px;
+    width: 30px;
+  }
+  .menu {
+    width: 80%;
+  }
+  .menu li {
+    border-bottom: solid 2px #e6e6e6;
+    padding: 50px 0;
+  }
+  .menu li a {
+    font-size: 20px;
+  }
+}
 .btn {
   font-weight: bold;
   border-radius: 9rem;
@@ -991,6 +1068,69 @@ footer span {
   }
   .btn.white a {
     font-size: 22px;
+  }
+}
+@media all and (max-width: 384px) and (max-height: 640px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 120px;
+  }
+  .btn.top a {
+    font-size: 19px;
+  }
+  .btn.white {
+    position: relative;
+    top: 3vh;
+    left: 125px;
+  }
+  .btn.white a {
+    font-size: 19px;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 533px) {
+  .btn {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 113px;
+  }
+  .btn.top a {
+    font-size: 16px;
+  }
+  .btn.white {
+    position: relative;
+    left: 115px;
+  }
+  .btn.white a {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 411px) and (max-height: 731px) {
+  .btn {
+    border-radius: 4px;
+    padding: 10px 10px;
+  }
+  .btn.top {
+    position: relative;
+    left: 137px;
+  }
+  .btn.top a {
+    font-size: 19px;
+  }
+  .btn.white {
+    position: relative;
+    top: 3vh;
+    left: 145px;
+  }
+  .btn.white a {
+    font-size: 19px;
   }
 }
 .about-head {
@@ -1781,4 +1921,165 @@ footer {
   footer {
     top: 30vh;
   }
-}/*# sourceMappingURL=about.css.map */
+}
+@media all and (max-width: 384px) and (max-height: 640px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+  .services .serv-head h3 {
+    font-size: 28px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    margin: 20px 10px 0 10px;
+    font-size: 17px;
+  }
+  .services .main-services {
+    display: block;
+    margin-top: 8vh;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 15vh;
+    height: 80vh;
+  }
+  .description h2 {
+    width: auto;
+    top: 3vh;
+    left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " !!!";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  footer {
+    top: 30vh;
+  }
+}
+@media all and (max-width: 320px) and (max-height: 533px) {
+  .about-head {
+    height: 35vh;
+  }
+  .about-head .headMain {
+    padding: 0;
+  }
+  .about-head .headMain h2 {
+    font-size: 18px;
+  }
+  .services .serv-head {
+    position: relative;
+    top: 5vh;
+  }
+  .services .serv-head h3 {
+    font-size: 22px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    padding-top: 9px;
+    font-size: 16px;
+  }
+  .services .main-services {
+    display: block;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 30vh;
+    height: 85vh;
+  }
+  .description h2 {
+    width: auto;
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " !!!";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 411px) and (max-height: 731px) {
+  .about-head {
+    height: 30vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+  .services .serv-head h3 {
+    font-size: 28px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    margin: 20px 10px 0 10px;
+    font-size: 17px;
+  }
+  .services .main-services {
+    display: block;
+    margin-top: 8vh;
+  }
+  .services .main-services a {
+    font-size: 24px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    top: 15vh;
+    height: 80vh;
+  }
+  .description h2 {
+    width: auto;
+    top: 3vh;
+    left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .description h2::after {
+    content: " !!!";
+  }
+  .description .texx img {
+    display: none;
+  }
+  .description .texx p {
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  footer {
+    top: 30vh;
+  }
+}
+/* continue from here  when you come back*//*# sourceMappingURL=about.css.map */
