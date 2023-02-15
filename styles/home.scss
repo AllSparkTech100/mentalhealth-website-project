@@ -37,7 +37,7 @@
     transition: 1.23s;
     background-color: #02514b;
     margin-top: 12vh;
-    height:65vh;
+    height:69vh;
     width: 100%;
 
     .mission-head{
@@ -98,9 +98,9 @@ footer{
     top: 5vh;
 }
 
-@media all and (min-width:1024px) and (max-width:1280px){
+@media screen and  (min-width:1024px) and (max-width:1280px){
     .content{
-        height: 64vh;
+        height: 74vh;
         .write{
             background-position: center;
             top: 25%;
@@ -108,7 +108,7 @@ footer{
             h2{
                 line-height: 1;
                 font-weight: bold;
-                font-size: 42px;
+                font-size:45px;
                 font-family: 'kanit';
                 text-align: center;
             }
@@ -152,1214 +152,131 @@ footer{
     }
 }
 
-@media all and (max-width:360px) and (max-height:480px){
-    .content{
-        .write{
-            width: 100%;
-            left: 0;
-            top: 90px;
-
-            h2{
-                font-size: 24px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 12px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
+@media screen and (max-width:480px){
+.content{
+    height: 62vh;
+    .write{
+        h2{
+            text-transform: uppercase;
+            font-size: 18px;
+            font-family: 'Kanit';
         }
 
-        .miss-word{
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
+        p{
+            font-size: 14px;
         }
     }
 }
 
-@media all and (min-height:500px) and (max-height:650px) and (min-width:414px) and (orientation:portrait){
-    .content{
-        height:59vh;
-        .write{
-            width: 100%;
-            left: 0;
-            top: 90px;
-
-            h2{
-                font-size: 30px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 14px;
-                text-align: center;
-            }
+.center{
+    height: 65vh;
+    .mission-head{
+        h3{
+            margin: 0;
+            width: 85vw;
+            position: relative;
+            left: 7%;
+            font-size: 17px;
+            line-height: 1.5;
         }
     }
 
-    .center{
-        height: 57vh;
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
+    .miss-word{
+        text-align: center;
+        p{
+            position: relative;
+            top: 55px;
+            font-size: 18px;
         }
-
-        .miss-word{
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
+        .right-img{
+            display: none;
         }
     }
 }
+}
 
-
-@media all and (max-width:239px) and (orientation:portrait) {
+@media screen and (min-width:481px) and (max-width:768px){
     .content{
+        height: 85vh;
         .write{
-            width: 100vw;
-            left: 0;
-            top: 75px;
-            text-align: center;
             h2{
                 text-transform: uppercase;
-                font-family: 'Poppins';
-                font-size: 18px;
+                font-size: 24px;
+                font-family: 'Kanit';
             }
-
+    
             p{
-                font-size: 14px;
-                font-family: cursive;
+                font-size: 16px;
             }
         }
     }
-
+    
     .center{
-        height: 70vh;
+        height: 84vh;
         .mission-head{
             h3{
-                font-size: 20px;
                 margin: 0;
-                text-align: center;
-                line-height: 2ch;
+                width: 85vh;
+                position: relative;
+                left: 7%;
+                font-size: 24px;
+                line-height: 1.5;
             }
         }
-
+    
         .miss-word{
-            width: 100vw;
+            text-align: center;
             p{
+                position: relative;
+                top: 55px;
                 font-size: 20px;
-                margin-top: 20px;
-                text-align: center;
             }
             .right-img{
                 display: none;
             }
         }
-
-        .but{
-            margin: 0;
-        }
     }
 }
 
-@media all and (max-width:736px) and (min-height:240px) and (max-height:420px)
-    {
+@media  screen and (min-width:769px) and (max-width:1023px) {
     .content{
         height: 80vh;
         .write{
-            width: 100%;
-            left: 0;
-            top: 70px;
-
             h2{
-                font-size: 40px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 14px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        .mission-head{
-            h3{
+                text-transform: uppercase;
                 font-size: 30px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
+                font-family: 'Kanit';
             }
-        }
-
-        .miss-word{
+    
             p{
                 font-size: 18px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:240px) {
-    .content{
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 55px;
-            text-align: center;
-            h2{
-                text-transform: uppercase;
-                font-family: 'Poppins';
-                font-size: 18px;
-            }
-
-            p{
-                font-size: 14px;
-                font-family: cursive;
             }
         }
     }
-
+    
     .center{
-        height: 90vh;
+        height: 80vh;
         .mission-head{
             h3{
-                font-size: 20px;
                 margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            width: 100vw;
-            p{
-                font-size: 20px;
-                margin-top: 20px;
-                text-align: center;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }    
-}
-
-@media all and (max-width:280px) and (max-height:653px){
-    .content{
-        width: auto;
-        height: 56vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 90px;
-            text-align: center;
-            h2{
-                text-transform: uppercase;
-                font-family: 'Poppins';
-                font-size: 22px;
-            }
-
-            p{
-                font-size: 14px;
-                font-family: cursive;
-            }
-        }
-    }
-
-    .center{
-        height: 60vh;
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            width: 100vw;
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-                text-align: center;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:320px) and (max-height:568px){
-    .content{
-        height: 56vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 50px;
-            text-align: center;
-            h2{
-                text-transform: uppercase;
-                font-family: 'Poppins';
-                font-size: 22px;
-            }
-
-            p{
-                font-size: 15px;
-                font-family: cursive;
-            }
-        }
-    }
-
-    .center{
-        height: 60vh;
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 3ch;
-            }
-        }
-
-        .miss-word{
-            width: 100vw;
-            p{
-                font-size: 20px;
-                margin-top: 20px;
-                text-align: center;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:320px) and (max-height:480px){
-
-    .content{
-        height: 70vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 80px;
-
-            h2{
-                font-size: 24px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 12px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:360px) and (max-height:640px){
-    .content{
-        height: 60vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 80px;
-
-            h2{
-                font-size: 27px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 14px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        .mission-head{
-            h3{
+                width: 85vw;
+                position: relative;
+                left: 7%;
                 font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
+                line-height: 1.5;
+                font-weight: bold;
             }
         }
-
+    
         .miss-word{
             p{
-                font-size: 22px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:360px) and (max-height:740px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 80px;
-
-            h2{
-                font-size: 30px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 16px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 58vh;
-        .mission-head{
-            h3{
+                position: relative;
+                top: 38px;
                 font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            p{
-                font-size: 22px;
-                margin-top: 60px;
             }
             .right-img{
                 display: none;
             }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:320px) and (max-height:658px){
-    .content{
-        height: 56vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 68px;
-            h2{
-                text-transform: uppercase;
-                font-family: 'Poppins';
-                font-size: 22px;
-            }
-
-            p{
-                font-size: 15.5px;
-                font-family: cursive;
-            }
-        }
-    }
-
-    .center{
-        height: 50vh;
-        .mission-head{
-            h3{
-                font-size: 22px;
-                margin: 0;
-                text-align: center;
-                line-height: 3ch;
-            }
-        }
-
-        .miss-word{
-            width: 100vw;
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-                text-align: center;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:375px) and (max-height:667px){
-    .content{
-        height: 56vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 80px;
-
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 26px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 18px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 22px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:375px) and (max-height:812px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 94px;
-
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 24px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 18px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 50vh;
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 22px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:384px) and (max-height:640px){
-    .content{
-        height: 55vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 64px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 23px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 18px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 64vh;
-        .mission-head{
-            h3{
-                font-size: 25px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 20px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:320px) and (max-height:533px){
-    .content{
-        height: 60vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 80px;
-
-            h2{
-                font-size: 24px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 13px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 55vh;
-        .mission-head{
-            h3{
-                font-size: 20px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            p{
-                font-size: 18px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:411px) and (max-height:731px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 64px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 25px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 18px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 23px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 24px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:411px) and (max-height:823px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 94px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 28px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 17px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 26px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 22px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:412px) and (max-height:732px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 100vw;
-            left: 0;
-            top: 78px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 26px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 15px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 26px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 22px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:412px) and (max-height:915px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 89px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 32px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 19px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 50vh;
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 24px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:412px) and (max-height:914px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 89px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 32px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 19px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 50vh;
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 24px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:414px) and (max-height:736px){
-    .content{
-        height: 58vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 89px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 32px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 19px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{ 
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 24px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:414px) and (max-height:896px){
-    .content{
-        height: 56vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 109px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 32px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 19px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 28px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 25px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:480px) and (max-height:854px){
-    .content{
-        height: 56vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 109px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 34px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 20px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 56vh;
-        .mission-head{
-            h3{
-                font-size: 30px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 28px;
-                margin-top: 60px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:540px) and (max-height:720px){
-    .content{
-        height: 60vh;
-        .write{
-            width: 99vw;
-            left: 0;
-            top: 109px;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 34px;
-                text-align: center;
-            }
-
-            p{
-                font-size: 20px;
-                text-align: center;
-            }
-        }
-    }
-
-    .center{
-        height: 60vh;
-        .mission-head{
-            h3{
-                font-size: 30px;
-                margin: 0;
-                text-align: center;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            text-align:center;
-            p{
-                font-size: 28px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
-        }
-    }
-}
-
-@media all and (max-width:600px) and (max-height:960px){
-    .content{
-        height: 50vh;
-        .write{
-            width: 90vw;
-            left: 1;
-            top: 30%;
-            h2{
-                font-family: 'Poppins';
-                text-transform: uppercase;
-                font-size: 34px;
-            }
-
-            p{
-                font-size: 20px;
-            }
-        }
-    }
-
-    .center{
-        height: 55vh;
-        .mission-head{
-            h3{
-                font-size: 30px;
-                margin: 3rem;
-                line-height: 2ch;
-            }
-        }
-
-        .miss-word{
-            p{
-                font-size: 32px;
-                margin-top: 20px;
-            }
-            .right-img{
-                display: none;
-            }
-        }
-
-        .but{
-            margin: 0;
         }
     }
 }
