@@ -243,18 +243,26 @@
 @media all and (min-width:1024px) and (max-width:1280px){
   .book{
     .book-head{
+      margin: 0;
       width: 40vw;
       h3{
+        position: relative;
+        left: 30px;
+        top: 50px;
         font-size: 24px;
       }
     }
     .head-word{
+      position: relative;
+      top: 25px;
       p{
         font-size: 25px;
       }
     }
 
     .rig-img {
+      position: relative;
+      top: 20px;
       img {
         height: 15rem;
         border-radius: 2rem;
@@ -284,6 +292,7 @@
 
       .bul{
         left: -30%;
+        top: 10vh;
       }
     }
   }
@@ -342,7 +351,6 @@
   }
 }
 
-//later
 @media screen and (max-width:480px){
 .book{
   .book-head{
@@ -542,9 +550,6 @@
        a{
         font-family: 'Poppins';
         letter-spacing: 2px;
-      //   // color: transparent;
-      //   background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
-      //   // -webkit-background-clip: text;
       }
     }
   }
@@ -629,8 +634,6 @@
   }
 }
 
-
-//Will Check
 @media screen and (min-width:769px) and (max-width:1023px) {
   .book{
     .book-head{
@@ -655,9 +658,7 @@
       }
   
       .rig-img{
-        display: block;
-        // height: 140px;
-        //   width: 100px;
+      display: none;
       }
     }
   }

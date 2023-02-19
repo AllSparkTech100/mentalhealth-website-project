@@ -356,12 +356,11 @@ footer span {
 }
 .btn.white {
   background-color: snow;
-}
-.btn.white a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .btn.end {
   background-color: lightseagreen;
@@ -486,7 +485,7 @@ footer span {
   }
 }
 .about-head {
-  background-image: linear-gradient(rgba(6, 57, 199, 0.829), rgba(2, 20, 31, 0.411)), url(../images/heart.jpg);
+  background-image: linear-gradient(rgba(6, 57, 199, 0.5), rgba(6, 45, 153, 0.705)), url(../images/heart.jpg);
   height: 43vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -653,5 +652,133 @@ footer {
   footer {
     position: relative;
     top: 30vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-head {
+    height: 35vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 20px;
+  }
+  .services .serv-head h3 {
+    font-size: 18px;
+  }
+  .services .serv-head p {
+    font-size: 14px;
+  }
+  .services .main-services {
+    display: block;
+    position: relative;
+    top: 40px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    height: 65vh;
+    top: 25vh;
+  }
+  .description h2 {
+    width: 40%;
+    font-size: 22px;
+  }
+  .description .texx {
+    position: relative;
+    top: 30px;
+  }
+  .description .texx p {
+    font-size: 14px;
+  }
+  .description .texx img {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .about-head {
+    height: 25vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 18px;
+  }
+  .services .serv-head h3 {
+    font-size: 22px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+  }
+  .services .main-services {
+    display: block;
+    position: relative;
+    top: 60px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    height: 45vh;
+    top: 25vh;
+  }
+  .description h2 {
+    width: 40%;
+    font-size: 22px;
+  }
+  .description .texx {
+    position: relative;
+    top: 30px;
+  }
+  .description .texx p {
+    font-size: 14px;
+  }
+  .description .texx img {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .about-head {
+    height: 35vh;
+  }
+  .about-head .headMain h2 {
+    font-size: 24px;
+  }
+  .services .serv-head h3 {
+    font-size: 22px;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  .services .serv-head p {
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+  }
+  .services .main-services {
+    display: block;
+    position: relative;
+    top: 60px;
+  }
+  .services .grid-container {
+    display: none;
+  }
+  .description {
+    height: 55vh;
+    top: 25vh;
+  }
+  .description h2 {
+    width: 40%;
+    font-size: 22px;
+  }
+  .description .texx {
+    position: relative;
+    top: 30px;
+  }
+  .description .texx p {
+    font-size: 18px;
+  }
+  .description .texx img {
+    display: none;
   }
 }/*# sourceMappingURL=about.css.map */

@@ -3,8 +3,8 @@
 
 .about-head {
   background-image: linear-gradient(
-      rgba(6, 57, 199, 0.829),
-      rgba(2, 20, 31, 0.411)
+      rgba(6, 57, 199, 0.5),
+      rgba(6, 45, 153, 0.705)
     ),
     url(../images/heart.jpg);
   height: 43vh;
@@ -135,6 +135,7 @@
     }
 }
 
+
 footer{
     position: relative;
     top: 40vh;
@@ -201,3 +202,172 @@ footer{
     }
 }
 
+@media screen and (max-width:480px) {
+    .about-head{
+        height: 35vh;
+        .headMain{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .services{
+        .serv-head{
+            h3{
+                font-size: 18px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+
+        .main-services{
+            display: block;
+            position: relative;
+            top: 40px;
+        }
+
+        .grid-container{
+            display: none;
+        }
+    }
+
+    .description{
+        height: 65vh;
+        top: 25vh;
+        h2{
+            width: 40%;
+            font-size: 22px;
+        }
+
+        .texx{
+            position: relative;
+            top: 30px;
+            p{
+                font-size: 14px;
+            }
+
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .about-head{
+        height: 25vh;
+        .headMain{
+            h2{
+                font-size: 18px;
+            }
+        }
+    }
+
+    .services{
+        .serv-head{
+            h3{
+                font-size: 22px;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+
+            p{
+                font-size: 16px;
+                position: relative;
+                top: 30px;
+            }
+        }
+
+        .main-services{
+            display: block;
+            position: relative;
+            top: 60px;
+        }
+
+        .grid-container{
+            display: none;
+        }
+    }
+
+    .description{
+        height: 45vh;
+        top: 25vh;
+        h2{
+            width: 40%;
+            font-size: 22px;
+        }
+
+        .texx{
+            position: relative;
+            top: 30px;
+            p{
+                font-size: 14px;
+            }
+
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    .about-head{
+        height: 35vh;
+        .headMain{
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .services{
+        .serv-head{
+            h3{
+                font-size: 22px;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+
+            p{
+                font-size: 16px;
+                position: relative;
+                top: 30px;
+            }
+        }
+
+        .main-services{
+            display: block;
+            position: relative;
+            top: 60px;
+        }
+
+        .grid-container{
+            display: none;
+        }
+    }
+
+    .description{
+        height: 55vh;
+        top: 25vh;
+        h2{
+            width: 40%;
+            font-size: 22px;
+        }
+
+        .texx{
+            position: relative;
+            top: 30px;
+            p{
+                font-size: 18px;
+            }
+
+            img{
+                display: none;
+            }
+        }
+    }
+}

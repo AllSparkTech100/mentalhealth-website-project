@@ -356,12 +356,11 @@ footer span {
 }
 .btn.white {
   background-color: snow;
-}
-.btn.white a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .btn.end {
   background-color: lightseagreen;
@@ -695,13 +694,25 @@ footer {
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   .book .book-head {
+    margin: 0;
     width: 40vw;
   }
   .book .book-head h3 {
+    position: relative;
+    left: 30px;
+    top: 50px;
     font-size: 24px;
+  }
+  .book .head-word {
+    position: relative;
+    top: 25px;
   }
   .book .head-word p {
     font-size: 25px;
+  }
+  .book .rig-img {
+    position: relative;
+    top: 20px;
   }
   .book .rig-img img {
     height: 15rem;
@@ -726,6 +737,7 @@ footer {
   }
   .find .help-strat .bul {
     left: -30%;
+    top: 10vh;
   }
   .therapy {
     flex-direction: column;
@@ -1004,7 +1016,7 @@ footer {
     font-size: 22px;
   }
   .book .head-word .rig-img {
-    display: block;
+    display: none;
   }
   .find .f-help h3 {
     font-size: 20px;

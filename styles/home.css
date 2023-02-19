@@ -356,12 +356,11 @@ footer span {
 }
 .btn.white {
   background-color: snow;
-}
-.btn.white a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 1rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .btn.end {
   background-color: lightseagreen;
@@ -622,7 +621,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .content {
-    height: 70vh;
+    height: 60vh;
   }
   .content .write {
     top: 14%;
