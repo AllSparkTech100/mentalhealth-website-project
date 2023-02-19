@@ -19,11 +19,12 @@
     }
     &.white{
         background-color:$all;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        a{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 1rem;
             text-decoration: none;
-            color: $primary;
-            cursor: pointer;
+            color: black;
+        }
    }
 
    &.end{
