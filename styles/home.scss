@@ -154,8 +154,9 @@ footer{
 
 @media screen and (max-width:480px){
 .content{
-    height: 62vh;
+    height: 70vh;
     .write{
+        top: 14%;
         h2{
             text-transform: uppercase;
             font-size: 18px;
@@ -229,7 +230,7 @@ footer{
             p{
                 position: relative;
                 top: 55px;
-                font-size: 20px;
+                font-size: 24px;
             }
             .right-img{
                 display: none;
@@ -255,7 +256,7 @@ footer{
     }
     
     .center{
-        height: 80vh;
+        height: 90vh;
         .mission-head{
             h3{
                 margin: 0;
@@ -269,13 +270,16 @@ footer{
         }
     
         .miss-word{
+            align-items: center;
+            position: relative;
+                top: 30px;
             p{
-                position: relative;
-                top: 38px;
-                font-size: 28px;
+                font-size: 22px;
             }
             .right-img{
-                display: none;
+                display: block;
+               height: 40vh;
+               width: 38vw;
             }
         }
     }

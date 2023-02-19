@@ -84,7 +84,21 @@
 
 @media screen and (max-width:480px) {
     .btn{
-        display: none;
+        display: block;
+        padding: 8px  10px;
+        border-radius: 0;
+        position: relative;
+        &.top, &.white{
+            a{
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+
+        &.white{
+            top: 120px;
+            left: -20%;
+        }
     }
 }
 
