@@ -9,6 +9,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition: all ease-in-out 2s;
 }
 
 body {
@@ -426,6 +427,7 @@ footer span {
   .btn.top a, .btn.white a {
     font-size: 12px;
     font-family: "Poppins";
+    font-weight: normal;
   }
   .btn.white {
     top: 120px;
@@ -674,8 +676,8 @@ footer span {
     display: none;
   }
   .description {
-    height: 65vh;
-    top: 25vh;
+    height: 85vh;
+    top: 20vh;
   }
   .description h2 {
     width: 40%;
@@ -683,13 +685,17 @@ footer span {
   }
   .description .texx {
     position: relative;
-    top: 30px;
+    top: 15px;
   }
   .description .texx p {
     font-size: 14px;
   }
   .description .texx img {
     display: none;
+  }
+  footer {
+    position: relative;
+    top: 20vh;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -766,7 +772,7 @@ footer span {
     display: none;
   }
   .description {
-    height: 55vh;
+    height: 75vh;
     top: 25vh;
   }
   .description h2 {

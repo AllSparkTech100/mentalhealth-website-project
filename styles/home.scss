@@ -3,7 +3,7 @@
    
 
 .content{
-    background-image: linear-gradient(rgba(5, 79, 116, 0.363),rgba(143, 6, 138, 0.404)),url(../images/test.jpg);
+    background-image: linear-gradient(rgba(5, 79, 116, 0.747),rgba(143, 6, 138, 0.76)),url(../images/test.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@
 
 @media screen and (max-width:480px){
 .content{
-    height: 50vh;
+    height: 60vh;
     .write{
         top: 14%;
         h2{
@@ -198,7 +198,7 @@
 
 @media screen and (min-width:481px) and (max-width:768px){
     .content{
-        height: 50vh;
+        height: 68vh;
         .write{
             h2{
                 text-transform: uppercase;
@@ -241,7 +241,7 @@
 
 @media  screen and (min-width:769px) and (max-width:1023px) {
     .content{
-        height: 60vh;
+        height: 85vh;
         .write{
             h2{
                 text-transform: uppercase;

@@ -9,6 +9,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition: all ease-in-out 2s;
 }
 
 body {
@@ -426,6 +427,7 @@ footer span {
   .btn.top a, .btn.white a {
     font-size: 12px;
     font-family: "Poppins";
+    font-weight: normal;
   }
   .btn.white {
     top: 120px;
@@ -828,8 +830,8 @@ footer span {
   }
   .find .bul a {
     font-family: "Poppins";
-    letter-spacing: 2px;
-    font-weight: bolder;
+    letter-spacing: 1;
+    font-weight: 560;
     text-transform: uppercase;
     color: #005A9C;
   }
@@ -962,7 +964,7 @@ footer span {
     font-size: 13px;
   }
   .mes {
-    height: 80vh;
+    height: 95vh;
   }
   .mes .line {
     display: none;
@@ -1013,7 +1015,6 @@ footer span {
     font-size: 18px;
     position: relative;
     top: 50px;
-    font-style: italic;
   }
   .book .head-word p {
     text-align: center;
@@ -1040,13 +1041,13 @@ footer span {
     display: block;
     left: 0;
     top: 3vh;
-    border-radius: 5px;
-    border: solid 2px yellow;
-    background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
+    border-radius: 16px;
+    background-color: snow;
   }
   .find .bul a {
     font-family: "Poppins";
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
   .therapy .imagge {
     display: none;

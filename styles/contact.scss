@@ -404,8 +404,8 @@
     background: $all;
      a{
       font-family: 'Poppins';
-      letter-spacing: 2px;
-      font-weight: bolder;
+      letter-spacing: 1;
+      font-weight: 560;
       text-transform: uppercase;
       color: $main;
     }
@@ -579,7 +579,7 @@
   }
   
   .mes{
-    height: 80vh;
+    height: 95vh;
     .line{
       display: none;
     }
@@ -645,7 +645,6 @@
         font-size: 18px;
         position: relative;
         top: 50px;
-        font-style: italic;
       }
     }
   
@@ -685,15 +684,12 @@
       display: block;
       left: 0;
       top: 3vh;
-      border-radius: 5px;
-      border: solid 2px $yel;
-      background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
+      border-radius: 16px;
+      background-color: $all;
        a{
         font-family: 'Poppins';
         letter-spacing: 2px;
-      //   // color: transparent;
-      //   background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
-      //   // -webkit-background-clip: text;
+        text-transform: uppercase;
       }
     }
   }

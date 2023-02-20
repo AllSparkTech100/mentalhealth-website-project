@@ -135,6 +135,8 @@
     }
 }
 
+
+
 @media all and (min-width:1024px) and (max-width:1280px){
     .about-head{
         height: 20rem;
@@ -229,8 +231,8 @@
     }
 
     .description{
-        height: 65vh;
-        top: 25vh;
+        height: 85vh;
+        top: 20vh;
         h2{
             width: 40%;
             font-size: 22px;
@@ -238,7 +240,7 @@
 
         .texx{
             position: relative;
-            top: 30px;
+            top: 15px;
             p{
                 font-size: 14px;
             }
@@ -247,6 +249,11 @@
                 display: none;
             }
         }
+    }
+
+    footer{
+        position:relative;
+        top: 20vh;
     }
 }
 
@@ -350,7 +357,7 @@
     }
 
     .description{
-        height: 55vh;
+        height: 75vh;
         top: 25vh;
         h2{
             width: 40%;
@@ -369,6 +376,8 @@
             }
         }
     }
+
+    
     footer{
         position: relative;
         top: 25vh;

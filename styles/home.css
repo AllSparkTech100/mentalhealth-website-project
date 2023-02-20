@@ -9,6 +9,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  transition: all ease-in-out 2s;
 }
 
 body {
@@ -426,6 +427,7 @@ footer span {
   .btn.top a, .btn.white a {
     font-size: 12px;
     font-family: "Poppins";
+    font-weight: normal;
   }
   .btn.white {
     top: 120px;
@@ -488,7 +490,7 @@ footer span {
   }
 }
 .content {
-  background-image: linear-gradient(rgba(5, 79, 116, 0.363), rgba(143, 6, 138, 0.404)), url(../images/test.jpg);
+  background-image: linear-gradient(rgba(5, 79, 116, 0.747), rgba(143, 6, 138, 0.76)), url(../images/test.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -623,7 +625,7 @@ footer span {
 }
 @media screen and (max-width: 480px) {
   .content {
-    height: 50vh;
+    height: 60vh;
   }
   .content .write {
     top: 14%;
@@ -661,7 +663,7 @@ footer span {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .content {
-    height: 50vh;
+    height: 68vh;
   }
   .content .write h2 {
     text-transform: uppercase;
@@ -696,7 +698,7 @@ footer span {
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   .content {
-    height: 60vh;
+    height: 85vh;
   }
   .content .write h2 {
     text-transform: uppercase;
