@@ -99,7 +99,7 @@
  
 .description{
     position: relative;
-    top: 20vh;
+    top: 1vh;
     background-color: $main;
     color: $all;
     height: 40%;
@@ -133,12 +133,6 @@
             height: 35vh;
         }
     }
-}
-
-
-footer{
-    position: relative;
-    top: 40vh;
 }
 
 @media all and (min-width:1024px) and (max-width:1280px){
@@ -198,7 +192,7 @@ footer{
 
     footer{
         position: relative;
-        top: 30vh;
+        top: 10vh;
     }
 }
 
@@ -293,8 +287,8 @@ footer{
     }
 
     .description{
-        height: 45vh;
-        top: 25vh;
+        height: 50vh;
+        top: 15vh;
         h2{
             width: 40%;
             font-size: 22px;
@@ -311,6 +305,11 @@ footer{
                 display: none;
             }
         }
+    }
+
+    footer{
+        position: relative;
+        top: 15vh;
     }
 }
 
@@ -369,5 +368,9 @@ footer{
                 display: none;
             }
         }
+    }
+    footer{
+        position: relative;
+        top: 25vh;
     }
 }

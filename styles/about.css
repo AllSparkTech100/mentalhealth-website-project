@@ -62,16 +62,18 @@ footer {
   justify-content: center;
   height: 4rem;
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: snow;
 }
 footer .copy {
   color: blue;
+  font-family: "Poppins";
   font-weight: bold;
   font-size: 1.3rem;
 }
 footer span {
+  font-size: 12px;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Kanit";
 }
 
 /*Menu Icon*/
@@ -364,14 +366,14 @@ footer span {
   color: black;
 }
 .btn.end {
-  background-color: lightseagreen;
+  background-color: snow;
   position: relative;
   left: -40%;
   top: 9vh;
 }
 .btn.end a {
   text-decoration: none;
-  color: snow;
+  color: #005A9C;
   font-size: 14px;
 }
 
@@ -418,12 +420,12 @@ footer span {
   .btn {
     display: block;
     padding: 8px 10px;
-    border-radius: 0;
+    border-radius: 15px;
     position: relative;
   }
   .btn.top a, .btn.white a {
     font-size: 12px;
-    font-weight: bold;
+    font-family: "Poppins";
   }
   .btn.white {
     top: 120px;
@@ -569,8 +571,8 @@ footer span {
 
 .description {
   position: relative;
-  top: 20vh;
-  background-color: #02514b;
+  top: 1vh;
+  background-color: #005A9C;
   color: snow;
   height: 40%;
   width: 100%;
@@ -602,11 +604,6 @@ footer span {
   left: 9%;
   width: 18vw;
   height: 35vh;
-}
-
-footer {
-  position: relative;
-  top: 40vh;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -652,7 +649,7 @@ footer {
   }
   footer {
     position: relative;
-    top: 30vh;
+    top: 10vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -721,8 +718,8 @@ footer {
     display: none;
   }
   .description {
-    height: 45vh;
-    top: 25vh;
+    height: 50vh;
+    top: 15vh;
   }
   .description h2 {
     width: 40%;
@@ -737,6 +734,10 @@ footer {
   }
   .description .texx img {
     display: none;
+  }
+  footer {
+    position: relative;
+    top: 15vh;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -781,5 +782,9 @@ footer {
   }
   .description .texx img {
     display: none;
+  }
+  footer {
+    position: relative;
+    top: 25vh;
   }
 }/*# sourceMappingURL=about.css.map */

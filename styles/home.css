@@ -62,16 +62,18 @@ footer {
   justify-content: center;
   height: 4rem;
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: snow;
 }
 footer .copy {
   color: blue;
+  font-family: "Poppins";
   font-weight: bold;
   font-size: 1.3rem;
 }
 footer span {
+  font-size: 12px;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Kanit";
 }
 
 /*Menu Icon*/
@@ -364,14 +366,14 @@ footer span {
   color: black;
 }
 .btn.end {
-  background-color: lightseagreen;
+  background-color: snow;
   position: relative;
   left: -40%;
   top: 9vh;
 }
 .btn.end a {
   text-decoration: none;
-  color: snow;
+  color: #005A9C;
   font-size: 14px;
 }
 
@@ -418,12 +420,12 @@ footer span {
   .btn {
     display: block;
     padding: 8px 10px;
-    border-radius: 0;
+    border-radius: 15px;
     position: relative;
   }
   .btn.top a, .btn.white a {
     font-size: 12px;
-    font-weight: bold;
+    font-family: "Poppins";
   }
   .btn.white {
     top: 120px;
@@ -486,12 +488,16 @@ footer span {
   }
 }
 .content {
-  background-image: linear-gradient(rgba(0, 2, 3, 0.705), rgba(199, 7, 189, 0.596)), url(../images/test.jpg);
+  background-image: linear-gradient(rgba(5, 79, 116, 0.363), rgba(143, 6, 138, 0.404)), url(../images/test.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 60vh;
+}
+.content:hover {
+  transition: ease-in 3s;
+  background-position: center;
 }
 .content .write {
   position: relative;
@@ -515,7 +521,7 @@ footer span {
 
 .center {
   transition: 1.23s;
-  background-color: #02514b;
+  background-color: #005A9C;
   margin-top: 12vh;
   height: 69vh;
   width: 100%;
@@ -565,11 +571,6 @@ footer span {
 .center .but {
   margin-top: -4rem;
   margin-left: 15rem;
-}
-
-footer {
-  position: relative;
-  top: 5vh;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -622,7 +623,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .content {
-    height: 60vh;
+    height: 50vh;
   }
   .content .write {
     top: 14%;
@@ -660,7 +661,7 @@ footer {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .content {
-    height: 85vh;
+    height: 50vh;
   }
   .content .write h2 {
     text-transform: uppercase;
@@ -695,7 +696,7 @@ footer {
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   .content {
-    height: 80vh;
+    height: 60vh;
   }
   .content .write h2 {
     text-transform: uppercase;

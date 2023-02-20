@@ -28,13 +28,13 @@
    }
 
    &.end{
-    background-color:lightseagreen ;
+    background-color:$all ;
     position: relative;
     left: -40%;
     top: 9vh;
     a{
         text-decoration: none;
-        color: $all;
+        color: $main;
         font-size: 14px;
     }
 }
@@ -86,12 +86,12 @@
     .btn{
         display: block;
         padding: 8px  10px;
-        border-radius: 0;
+        border-radius: 15px;
         position: relative;
         &.top, &.white{
             a{
                 font-size: 12px;
-                font-weight: bold;
+                font-family: 'Poppins';
             }
         }
 

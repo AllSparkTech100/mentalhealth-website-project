@@ -3,12 +3,17 @@
    
 
 .content{
-    background-image: linear-gradient(rgba(0, 2, 3, 0.705),rgba(199, 7, 189, 0.596)),url(../images/test.jpg);
+    background-image: linear-gradient(rgba(5, 79, 116, 0.363),rgba(143, 6, 138, 0.404)),url(../images/test.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 60vh;
+
+    &:hover{
+        transition: ease-in 3s;
+        background-position: center;
+    }
 
     .write{
         position: relative;
@@ -35,7 +40,7 @@
 
 .center{
     transition: 1.23s;
-    background-color: #02514b;
+    background-color: $main;
     margin-top: 12vh;
     height:69vh;
     width: 100%;
@@ -91,11 +96,6 @@
         margin-top: -4rem;
         margin-left: 15rem;
     }
-}
-
-footer{
-    position: relative;
-    top: 5vh;
 }
 
 @media screen and  (min-width:1024px) and (max-width:1280px){
@@ -154,7 +154,7 @@ footer{
 
 @media screen and (max-width:480px){
 .content{
-    height: 60vh;
+    height: 50vh;
     .write{
         top: 14%;
         h2{
@@ -198,7 +198,7 @@ footer{
 
 @media screen and (min-width:481px) and (max-width:768px){
     .content{
-        height: 85vh;
+        height: 50vh;
         .write{
             h2{
                 text-transform: uppercase;
@@ -241,7 +241,7 @@ footer{
 
 @media  screen and (min-width:769px) and (max-width:1023px) {
     .content{
-        height: 80vh;
+        height: 60vh;
         .write{
             h2{
                 text-transform: uppercase;

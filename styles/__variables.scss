@@ -12,7 +12,7 @@
   user-select: none;
 }
 
-$main:#02514b;
+$main:#005A9C;
 $second:#e6e6e6;
 $third:#7eea00;
 $primary: black;
@@ -79,16 +79,18 @@ footer{
   justify-content: center;
   height: 4rem;
   width: 100%;
-  background-color: $second;
+  background-color: $all;
 
   .copy{
     color: $cool;
+    font-family: 'Poppins';
     font-weight: bold;
     font-size: 1.3rem;
   }
   span{
+    font-size: 12px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family: 'Kanit';
   }
 }
 

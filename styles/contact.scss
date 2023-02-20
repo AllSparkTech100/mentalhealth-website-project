@@ -45,7 +45,7 @@
 .find {
   margin-top: 5rem;
   transition: 1.24s;
-  background-color: #02514b;
+  background-color: $main;
   box-sizing: border-box;
   .f-help {
     position: relative;
@@ -74,7 +74,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: bold;
       font-size: 1.5rem;
-      color: $yel;
+      color: $all;
 
       span {
         text-transform: uppercase;
@@ -87,6 +87,10 @@
     position: relative;
     left: -40%;
     top: 7vh;
+    background-color: $all;
+    a{
+      color: $main;
+    }
   }
 }
 
@@ -126,7 +130,7 @@
 .mes {
   height: 90vh;
   width: 100%;
-  background-color: #02514b;
+  background-color: $main;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -136,7 +140,7 @@
   .line{
     height: 70vh;
     width: .2%;
-    background-color: $yel;
+    background-color: $all;
   }
   .message {
     margin-top: 2rem;
@@ -233,12 +237,7 @@
       }
     }
   }
-  
 
-  footer{
-    position: relative;
-    top: 10vh;
-}
 
 @media all and (min-width:1024px) and (max-width:1280px){
   .book{
@@ -401,15 +400,14 @@
     display: block;
     left: 0;
     top: 3vh;
-    border-radius: 5px;
-    border: solid 2px $yel;
-    background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
+    border-radius: 20px;
+    background: $all;
      a{
       font-family: 'Poppins';
       letter-spacing: 2px;
-    //   // color: transparent;
-    //   background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
-    //   // -webkit-background-clip: text;
+      font-weight: bolder;
+      text-transform: uppercase;
+      color: $main;
     }
   }
 }
@@ -542,14 +540,16 @@
   
     .bul{
       display: block;
-      left: 0;
-      top: 3vh;
-      border-radius: 5px;
-      border: solid 2px $yel;
-      background: linear-gradient(10deg, rgba(47, 4, 236, 0.767), rgb(117, 4, 4));
-       a{
-        font-family: 'Poppins';
-        letter-spacing: 2px;
+        left: 0;
+        top: 3vh;
+        border-radius: 20px;
+        background: $all;
+         a{
+          font-family: 'Poppins';
+          letter-spacing: 2px;
+          font-weight: bolder;
+          text-transform: uppercase;
+          color: $main;
       }
     }
   }
@@ -561,7 +561,7 @@
   
     .therapy-word{
       margin: 0;
-      width: 100vw;
+      width: 100%;
       position: relative;
       h3{
         font-size: 17px;
@@ -579,7 +579,7 @@
   }
   
   .mes{
-    height: 125vh;
+    height: 80vh;
     .line{
       display: none;
     }
