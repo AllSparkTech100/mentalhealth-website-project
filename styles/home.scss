@@ -3,7 +3,7 @@
    
 
 .content{
-    background-image: linear-gradient(rgba(5, 79, 116, 0.747),rgba(143, 6, 138, 0.76)),url(../images/test.jpg);
+    background-image: linear-gradient(rgb(143, 6, 138, 0.76)),url(../images/test.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@
 
 @media screen and (max-width:480px){
 .content{
-    height: 60vh;
+    height: 55vh;
     .write{
         top: 14%;
         h2{
@@ -286,6 +286,13 @@
 }
 
 @media screen and (max-width:320px) {
+
+    .content{
+        height: 60vh;
+        .write{
+            width: 80vw;
+        }
+    }
     .center{
     .miss-word{
         display: flex;
@@ -301,7 +308,7 @@
 
     .but{
         margin-top: -4rem;
-        margin-left: 5px;
+        margin-left: 125px;
     }
     }
 }
