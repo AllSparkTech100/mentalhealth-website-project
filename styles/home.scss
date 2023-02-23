@@ -23,16 +23,16 @@
         text-align: left;
 
         h2{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Kanit';
             font-weight: bold;
-            letter-spacing: 1;
+            letter-spacing: 7;
             color: $yel;
             font-size: 2.9rem;
         }
     
         p{
             font-size: 1rem;
-            font-family:cursive;
+            font-family:'Poppins';
             color: $all;
         }
     }
@@ -51,7 +51,7 @@
         text-decoration: underline $yel 3px;
 
         h3{
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: 'Kanit';
             text-transform: uppercase;
             font-size: 2rem;
             font-weight: bolder;
@@ -68,7 +68,7 @@
         margin-top: 2rem;
 
         p{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Poppins';
             font-size: 1.5rem;
             color: $all;
         }
@@ -282,5 +282,26 @@
                width: 38vw;
             }
         }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .center{
+    .miss-word{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+
+        p{
+            font-family: 'Poppins';
+          font-size: 16px;
+        }
+    }
+
+    .but{
+        margin-top: -4rem;
+        margin-left: 5px;
+    }
     }
 }

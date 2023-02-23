@@ -489,6 +489,23 @@ footer span {
     color: snow;
   }
 }
+@media screen and (max-width: 320px) {
+  .btn {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .btn.top a, .btn.white a {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: normal;
+  }
+  .btn.white {
+    top: 120px;
+    left: -3%;
+  }
+}
 .book {
   transition: 1.2s;
   color: snow;
@@ -498,7 +515,7 @@ footer span {
 }
 .book .book-head h3 {
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Poppins";
   font-size: 2rem;
 }
 .book .head-word {
@@ -536,7 +553,7 @@ footer span {
 }
 .find .f-help h3 {
   font-size: 2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   text-align: center;
   color: snow;
 }
@@ -553,12 +570,13 @@ footer span {
 }
 .find .help-strat p {
   margin-top: -6rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-weight: bold;
   font-size: 1.5rem;
-  color: snow;
+  color: yellow;
 }
 .find .help-strat p span {
+  font-family: "Kanit";
   text-transform: uppercase;
   color: snow;
 }
@@ -570,6 +588,7 @@ footer span {
 }
 .find .bul a {
   color: #005A9C;
+  text-transform: uppercase;
 }
 
 .therapy {
@@ -590,12 +609,12 @@ footer span {
 .therapy .therapy-word h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Kanit";
   color: green;
   letter-spacing: 9px;
 }
 .therapy .therapy-word p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: 1.5rem;
   margin-right: 3rem;
 }
@@ -624,7 +643,7 @@ footer span {
   position: relative;
   top: 1rem;
   margin-left: 2rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Poppins";
 }
 .mes .message h4 a {
   font-weight: bold;
@@ -636,13 +655,14 @@ footer span {
   transition: 1.22s;
   position: relative;
   top: 1rem;
+  font-family: "Poppins";
 }
 .address .fa-brands {
   color: snow;
 }
 .address h3 {
   text-transform: uppercase;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Kanit";
   font-weight: bold;
   font-size: 2rem;
   font-style: italic;
@@ -651,7 +671,6 @@ footer span {
   margin-top: 1%;
 }
 .address .cont-add-1 p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
 }
 .address .cont-add-2 {
@@ -663,7 +682,6 @@ footer span {
   gap: 15px;
 }
 .address .cont-add-2 p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
 }
 .address .cont-add-2 a {
@@ -674,7 +692,7 @@ footer span {
 }
 .address .sell p {
   font-size: 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
 }
 .address .sell p span {
   color: #7eea00;
@@ -684,15 +702,16 @@ footer span {
 }
 .address .volunteer {
   margin-top: 2rem;
+  font-family: "Kanit";
 }
 .address .volunteer h4 {
+  text-transform: uppercase;
   margin-bottom: 0.4rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 1rem;
 }
 .address .volunteer p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins";
   font-size: 1rem;
 }
 

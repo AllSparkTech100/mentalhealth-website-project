@@ -489,6 +489,23 @@ footer span {
     color: snow;
   }
 }
+@media screen and (max-width: 320px) {
+  .btn {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .btn.top a, .btn.white a {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: normal;
+  }
+  .btn.white {
+    top: 120px;
+    left: -3%;
+  }
+}
 .about-head {
   background-image: linear-gradient(rgba(6, 57, 199, 0.5), rgba(6, 45, 153, 0.705)), url(../images/heart.jpg);
   height: 43vh;

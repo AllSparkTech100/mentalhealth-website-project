@@ -160,3 +160,24 @@
     }
 }
 }
+
+@media screen and (max-width:320px) {
+    .btn{
+        display: block;
+        padding: 8px  10px;
+        border-radius: 15px;
+        position: relative;
+        &.top, &.white{
+            a{
+                font-size: 12px;
+                font-family: 'Poppins';
+                font-weight: normal;
+            }
+        }
+
+        &.white{
+            top: 120px;
+            left: -3%;
+        }
+    }
+}

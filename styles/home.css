@@ -489,6 +489,23 @@ footer span {
     color: snow;
   }
 }
+@media screen and (max-width: 320px) {
+  .btn {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 15px;
+    position: relative;
+  }
+  .btn.top a, .btn.white a {
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: normal;
+  }
+  .btn.white {
+    top: 120px;
+    left: -3%;
+  }
+}
 .content {
   background-image: linear-gradient(rgba(5, 79, 116, 0.747), rgba(143, 6, 138, 0.76)), url(../images/test.jpg);
   width: 100%;
@@ -509,15 +526,15 @@ footer span {
   text-align: left;
 }
 .content .write h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Kanit";
   font-weight: bold;
-  letter-spacing: 1;
+  letter-spacing: 7;
   color: yellow;
   font-size: 2.9rem;
 }
 .content .write p {
   font-size: 1rem;
-  font-family: cursive;
+  font-family: "Poppins";
   color: snow;
 }
 
@@ -535,7 +552,7 @@ footer span {
           text-decoration: underline yellow 3px;
 }
 .center .mission-head h3 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Kanit";
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bolder;
@@ -550,7 +567,7 @@ footer span {
   margin-top: 2rem;
 }
 .center .miss-word p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Poppins";
   font-size: 1.5rem;
   color: snow;
 }
@@ -732,5 +749,21 @@ footer span {
     display: block;
     height: 40vh;
     width: 38vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .center .miss-word {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .center .miss-word p {
+    font-family: "Poppins";
+    font-size: 16px;
+  }
+  .center .but {
+    margin-top: -4rem;
+    margin-left: 5px;
   }
 }/*# sourceMappingURL=home.css.map */
