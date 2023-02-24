@@ -3,7 +3,7 @@
    
 
 .content{
-    background-image: linear-gradient(rgb(143, 6, 138, 0.76)),url(../images/test.jpg);
+    background-image: linear-gradient(rgba(5, 79, 116, 0.747),rgba(143, 6, 138, 0.76)),url(../images/test.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,6 @@
 }
 
 @media screen and (max-width:320px) {
-
     .content{
         height: 60vh;
         .write{
